@@ -1,0 +1,19 @@
+executer cette commande dans powerShelle Administrateur
+
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+
+chcoco install haskell-dev
+
+
+pour executer
+
+ghc planette.hs
+
+ghc-9.8.1.exe .\calculAge.hs
+
+.\calculAge.exe
+
+
+Haskell est un language de prog fonctionnelle
